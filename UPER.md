@@ -1,19 +1,12 @@
 <h1>The Problem Solving Framework : 'UPER'</h1>
 
-* U = "Understand"
-* P = "Plan"
-* E = "Execute"
-* R = "Reflect" / "Refactor"
+- U = "Understand"
+- P = "Plan"
+- E = "Execute"
+- R = "Reflect" / "Refactor"
 
 <h2>1. Understanding the Problem</h2>
-*
-*
-*
-*
-*
-*
-*
-*
+    Build a text based game with GUI in java
 <h2>
     2. Planning the Solution
 </h2>
