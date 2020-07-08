@@ -2,6 +2,9 @@ package blackjack;
 
 import java.util.*;
 
+// extension to Hand class to not reveal hidden cards
+// similar to a casino
+
 public class DealerHand extends Hand {
     private ArrayList<Card> dealerHand = new ArrayList<>();
 

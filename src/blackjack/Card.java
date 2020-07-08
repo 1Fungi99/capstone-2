@@ -1,5 +1,8 @@
 package blackjack;
 
+// Card class that holds the information of the current card.
+// Simply holds name of card and the associated values of the card
+
 public class Card {
     String name;
     int value;
