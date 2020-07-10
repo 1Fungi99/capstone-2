@@ -29,12 +29,12 @@ public class Hand {
         //TEST: BLACKJACK
         // total = 21;
 
-        System.out.println("Total hand value: " + total);
-        checkHandValue(total);
+        System.out.println("Total hand value: " + total + "\n");
+        initialBlackjack(total);
     }
 
     // get total value of current hand
-    private int totalValue() {
+    public int totalValue() {
         int total = 0;
         for (Card card : hand) {
             total = total + card.value;
@@ -43,9 +43,20 @@ public class Hand {
     }
 
     // Checks for blackjacks
-    private void checkHandValue(int total) {
+    private void initialBlackjack(int total) {
         if (!dealt && total == 21) {
             System.out.println("BLACKJACK");
+        }
+    }
+
+    // checks to make sure that the player has not busted
+    // true means less than 21, still valid play
+    // false means more than 21, no longer valid play
+    public boolean checkHandValue() {
+        if (totalValue() <= 21) {
+            return true;
+        } else {
+            return false;
         }
     }
 }

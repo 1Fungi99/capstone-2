@@ -19,7 +19,8 @@ public class DealerHand extends Hand {
         totalValue();
     }
 
-    private void totalValue() {
-        System.out.println("Visible Dealer hand value: " + dealerHand.get(0).value);
+    public int totalValue() {
+        System.out.println("Visible Dealer hand value: " + dealerHand.get(0).value + "\n");
+        return dealerHand.get(0).value;
     }
 }

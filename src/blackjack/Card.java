@@ -6,10 +6,15 @@ package blackjack;
 public class Card {
     String name;
     int value;
+    String shortValue;
+    String shortName;
 
-    public Card(String name) {
+    public Card(String name, String shortValue, String shortName) {
         this.name = name;
+        this.shortValue = shortValue;
+        this.shortName = shortName;
         this.value = setValue(name);
+        // this.shortName = setShortName(name);
     }
 
     public String getName() {
@@ -18,6 +23,14 @@ public class Card {
 
     public int getValue() {
         return value;
+    }
+
+    public String getShortName() {
+        return shortName;
+    }
+
+    public String getShortValue() {
+        return shortValue;
     }
 
     public int setValue(String name) {
