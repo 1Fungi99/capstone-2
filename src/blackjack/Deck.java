@@ -18,7 +18,7 @@ class Deck {
 
     private final List<Card> deck = new ArrayList<>();
 
-    // Boolean that will not allow the deck to be shuffled more than once.
+    // Boolean that will not allow the deck to be shuffled more after the for loop.
     // if you think a machine can't shuffle cards... I don't know what to tell you, son.
     private boolean shuffledAlready = false;
 
