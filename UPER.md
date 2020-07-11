@@ -17,18 +17,43 @@ Brainstorming ideas for the project.
 <h2>
 Blackjack
 </h2>
-
+<h3>
+Need:
+</h3>
+<ul>
+<li>Deck class</li>
+<li>Hand class</li>
+<li>Card class</li>
+<li>Dealer/game class</li>
+<li>Dealer hand? class</li>
+</ul>
 <h2>
     3. Executing the Plan
 </h2>
-*
-*
-*
-*
-*
-*
-*
-*
+<h3>Deck Class</h3>
+<p>
+Deck class need to be able to
+<ul>
+<li>Create new deck(Constructor)</li>
+<li>Display deck (Optional)</li>
+<li>Shuffle</li>
+<li>Deal Cards to both player and dealer</li>
+</ul>
+
+<h3>Hand Class/Dealer Hand</h3>
+<ul>
+<li>Add cards to hand by calling deck</li>
+<li>Display hand</li>
+<li>Get total value of hand</li>
+<li>Check for initial blackjack</li>
+</ul>
+
+<h3>Card Class</h3>
+<ul>
+<li>Store card name and value (short name for gui)</li>
+</ul>
+
+</p>
 <h2>
     4. Reflection / Refactor
 </h2>

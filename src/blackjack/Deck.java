@@ -23,7 +23,7 @@ class Deck {
     private boolean shuffledAlready = false;
 
     // initialization of a new deck, will be in order of suits => values
-    public Deck(final int numOfDecks) {
+    public Deck(int numOfDecks) {
         this.numOfDecks = numOfDecks;
         for (int a = 0; a < numOfDecks; a++) {
             for (int i = 0; i < faceList.size(); i++) {
@@ -79,6 +79,7 @@ class Deck {
     }
 }
 
+// shuffle at an interval
 class Shuffle implements Runnable {
     private boolean shuffledAlready;
     private List<Card> deck;

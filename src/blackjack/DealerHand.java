@@ -8,10 +8,12 @@ import java.util.*;
 public class DealerHand extends Hand {
     private ArrayList<Card> dealerHand = new ArrayList<>();
 
+    // Add card to hand
     public void addToHand(Card card) {
         dealerHand.add(card);
     }
 
+    // Display all cards in hand
     public void displayHand() {
         System.out.println("Dealer's hand: ");
         for (Card t : dealerHand) {
@@ -23,12 +25,14 @@ public class DealerHand extends Hand {
         System.out.println("Total hand value: " + total + "\n");
     }
 
+    // display only the first card before the flop
     public void displayHandHidden() {
         System.out.println("Dealer hand: ");
         System.out.println(dealerHand.get(0).name);
         totalValueHidden();
     }
 
+    // sum of all cards in hand
     public int totalValue() {
         int total = 0;
         for (Card card : dealerHand) {
@@ -37,6 +41,7 @@ public class DealerHand extends Hand {
         return total;
     }
 
+    // only show value of the one card shown before flop
     public int totalValueHidden() {
         System.out.println("Visible Dealer hand value: " + dealerHand.get(0).value + "\n");
         return dealerHand.get(0).value;
