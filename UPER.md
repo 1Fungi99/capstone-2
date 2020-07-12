@@ -52,16 +52,10 @@ Deck class need to be able to
 <ul>
 <li>Store card name and value (short name for gui)</li>
 </ul>
-
 </p>
+
 <h2>
     4. Reflection / Refactor
 </h2>
-*
-*
-*
-*
-*
-*
-*
-*
+
+<p>No inclusions of Lambda/streams due to the amount of refactoring needed and the time constraints did not allow for me to complete that requirement. Possibly could have made the app with lambda function as I went, rather than working without it.</p>

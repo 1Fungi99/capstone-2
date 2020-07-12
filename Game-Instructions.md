@@ -15,4 +15,4 @@ Place the instructions for how to play your game in this file. The instructions 
 <li>Hit that nice green arrow and have fun!</li>
 </ul>
 
-<p>If you don't understand how to run this file... Google is your friend.<a href="https://www.google.com/search?sxsrf=ALeKk00M_h4EYZjZoIlLqe5NghhPLsN-Mw%3A1594587098922&source=hp&ei=2ncLX8GoNcyxytMP6ZK0uAI&q=how+to+google&oq=how+to+google&gs_lcp=CgZwc3ktYWIQAzIHCAAQsQMQQzICCAAyAggAMgIIADIECAAQQzICCAAyBAgAEEMyAggAMgQIABBDMgIIAFAAWABgj1toAHAAeACAAYABiAGAAZIBAzAuMZgBAKoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwjB_d3sy8jqAhXMmHIEHWkJDScQ4dUDCAk&uact=5" target="_blank">[I'm Feeling Lucky]</a></p>
+<p>If you don't understand how to run this file... Google is your friend. <a href="https://www.google.com/search?sxsrf=ALeKk00M_h4EYZjZoIlLqe5NghhPLsN-Mw%3A1594587098922&source=hp&ei=2ncLX8GoNcyxytMP6ZK0uAI&q=how+to+google&oq=how+to+google&gs_lcp=CgZwc3ktYWIQAzIHCAAQsQMQQzICCAAyAggAMgIIADIECAAQQzICCAAyBAgAEEMyAggAMgQIABBDMgIIAFAAWABgj1toAHAAeACAAYABiAGAAZIBAzAuMZgBAKoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwjB_d3sy8jqAhXMmHIEHWkJDScQ4dUDCAk&uact=5" target="_blank">[I'm Feeling Lucky]</a></p>

@@ -9,6 +9,5 @@ abstract class HandOfCards {
     allowed for only blackjack
     */
     void addToHand(Card card) {
-
     }
 }
