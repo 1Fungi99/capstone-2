@@ -36,8 +36,15 @@ public class Hand {
     // get total value of current hand
     public int totalValue() {
         int total = 0;
+        int aceCount = 0;
         for (Card card : hand) {
             total = total + card.value;
+            if (card.name.contains("Ace")) {
+                aceCount++;
+            }
+        }
+        if (total > 21 && aceCount != 0) {
+            total = total - (aceCount * 10);
         }
         return total;
     }
@@ -58,5 +65,9 @@ public class Hand {
         } else {
             return false;
         }
+    }
+
+    public interface ValueCheck {
+        boolean boolOperation(boolean score);
     }
 }

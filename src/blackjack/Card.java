@@ -40,7 +40,6 @@ public class Card {
         if (name.contains("King") || name.contains("Queen") || name.contains("Jack")) {
             return 10;
         }
-
         for (int i = 2; i <= 10; i++) {
             if (name.contains(String.valueOf(i))) {
                 return i;

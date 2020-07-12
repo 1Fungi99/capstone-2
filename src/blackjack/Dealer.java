@@ -76,7 +76,7 @@ public class Dealer {
                     }
                     break;
                 case 2:
-                    System.out.println("Proceed to dealer...");
+                    System.out.println("\nDealer's Turn\n");
                     hitBool = true;
                     break;
                 default:
@@ -95,13 +95,13 @@ public class Dealer {
         do {
             dealerHand.addToHand(deck.dealOne());
             dealerHand.displayHand();
-            if (dealerHand.totalValue() < 18) {
+            if (dealerHand.totalValue() <= 17) {
                 isValid = true;
             } else if (dealerHand.totalValue() == 21) {
                 System.out.println("Blackjack");
                 isValid = false;
             } else {
-                System.out.println("BUST");
+                System.out.println("BUST\n");
                 isValid = false;
             }
         } while (isValid == true);
@@ -111,7 +111,8 @@ public class Dealer {
     // outputs final result, if the player on or if the dealer has a greater value
     // if ties occur, dealer wins due to casino realism
     public static void finalResults(int player, int dealer) {
-        if ((player > dealer && player <= 21 && dealer <= 21) || (player > dealer && player <= 21 && dealer > 21)) {
+        if ((player > dealer && player <= 21 && dealer <= 21) || (player > dealer && player <= 21 && dealer > 21)
+                || (player < dealer && player <= 21 && dealer > 21)) {
             System.out.println("YOU WIN!");
         } else {
             System.out.println("YOU LOSE!");
