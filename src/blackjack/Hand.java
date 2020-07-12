@@ -4,11 +4,12 @@ import java.util.*;
 
 // the hand of the player(s)
 
-public class Hand {
+public class Hand extends HandOfCards {
     private ArrayList<Card> hand = new ArrayList<>();
     private boolean dealt = false;
 
     // Add cards to hand
+    @Override
     public void addToHand(Card card) {
         hand.add(card);
         int total = 0;
@@ -25,9 +26,6 @@ public class Hand {
         }
         int total = 0;
         total = totalValue();
-
-        //TEST: BLACKJACK
-        // total = 21;
 
         System.out.println("Total hand value: " + total + "\n");
         initialBlackjack(total);
@@ -67,7 +65,4 @@ public class Hand {
         }
     }
 
-    public interface ValueCheck {
-        boolean boolOperation(boolean score);
-    }
 }
