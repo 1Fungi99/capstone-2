@@ -7,8 +7,6 @@ Place the instructions for how to play your game in this file. The instructions 
 
 <p>The best total of all is a two-card 21, or a blackjack. Blackjack pays 3-2--that is, a two-card 21 on a $5 bet will win $7.50 instead of the usual $5 even-money payoff on other winning hands. However, if the dealer also has a two-card 21, the hand pushes, or ties, and you just get your original bet back. But if the dealer goes on to draw 21 in three or more cards, your blackjack is still a winner with its 3-2 payoff.</p>
 
-<p></p>
-
 <h1>Instructions how to run: </h1>
 
 <ul>
@@ -17,4 +15,4 @@ Place the instructions for how to play your game in this file. The instructions 
 <li>Hit that nice green arrow and have fun!</li>
 </ul>
 
-<p>If you don't understand how to run this file... Google is your friend.</p>
+<p>If you don't understand how to run this file... Google is your friend.<a href="google.com/?q=how+to+google&atb=v199-1&ia=web">[I'm Feeling Lucky]</a></p>
