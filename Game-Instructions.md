@@ -12,8 +12,8 @@ Place the instructions for how to play your game in this file. The instructions 
 <h1>Instructions how to run: </h1>
 
 <ul>
-<li>Git clone [repo_name] <a href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html">[LINK]</a></li>
-<li>Import into an IDE(IntelliJ)</li>
+<li>Git clone [repo_name] <a href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html">[Basic Git commands]</a></li>
+<li>Import into an IDE(IntelliJ)<a href="https://www.jetbrains.com/help/idea/import-project-or-module-wizard.html">[Import a project]</a></li>
 <li>Hit that nice green arrow and have fun!</li>
 </ul>
 
