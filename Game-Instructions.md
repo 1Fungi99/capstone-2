@@ -15,4 +15,4 @@ Place the instructions for how to play your game in this file. The instructions 
 <li>Hit that nice green arrow and have fun!</li>
 </ul>
 
-<p>If you don't understand how to run this file... Google is your friend.<a href="google.com/?q=how+to+google&atb=v199-1&ia=web">[I'm Feeling Lucky]</a></p>
+<p>If you don't understand how to run this file... Google is your friend.<a href="https://www.google.com/?q=how+to+google&atb=v199-1&ia=web">[I'm Feeling Lucky]</a></p>
