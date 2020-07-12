@@ -10,9 +10,9 @@ Place the instructions for how to play your game in this file. The instructions 
 <h1>Instructions how to run: </h1>
 
 <ul>
-<li>Git clone [repo_name] <a href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html">[Basic Git commands]</a></li>
-<li>Import into an IDE(IntelliJ)<a href="https://www.jetbrains.com/help/idea/import-project-or-module-wizard.html">[Import a project]</a></li>
+<li>Git clone [repo_name] <a target="_blank" href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html">[Basic Git commands]</a></li>
+<li>Import into an IDE(IntelliJ)<a target="_blank" href="https://www.jetbrains.com/help/idea/import-project-or-module-wizard.html">[Import a project]</a></li>
 <li>Hit that nice green arrow and have fun!</li>
 </ul>
 
-<p>If you don't understand how to run this file... Google is your friend.<a href="https://www.google.com/?q=how+to+google&atb=v199-1&ia=web">[I'm Feeling Lucky]</a></p>
+<p>If you don't understand how to run this file... Google is your friend.<a target="_blank" href="https://www.google.com/?q=how+to+google&atb=v199-1&ia=web">[I'm Feeling Lucky]</a></p>
