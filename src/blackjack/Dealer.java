@@ -9,7 +9,7 @@ public class Dealer {
         Scanner s = new Scanner(System.in);
         Bet bet = new Bet(0);
 
-        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the table!\n");
+        System.out.println("\n\nWelcome to the table!\n");
 
         System.out.println("Starting amount of money: (Minimum $15)");
         System.out.print("$");

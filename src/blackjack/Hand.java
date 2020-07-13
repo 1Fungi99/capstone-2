@@ -20,7 +20,7 @@ public class Hand extends HandOfCards {
 
     // Display current hand of player
     public void displayHand() {
-        System.out.println("Your hand: ");
+        System.out.println("\nYour hand: ");
         for (Card t : hand) {
             System.out.println(t.name);
         }

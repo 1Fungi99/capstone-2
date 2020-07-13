@@ -57,4 +57,4 @@ Deck class need to be able to
     4. Reflection / Refactor
 </h2>
 
-<p>No inclusions of Lambda/streams due to the amount of refactoring needed and the time constraints did not allow for me to complete that requirement. Possibly could have made the app with lambda function as I went, rather than working without it.</p>
+<p>If I had another 24 hrs, I would add Exception handling for the Scanner.</p>
