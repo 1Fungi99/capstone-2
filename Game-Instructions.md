@@ -15,7 +15,7 @@ Place the instructions for how to play your game in this file. The instructions 
 <h1>RULES:</h1>
 <p>Blackjack is played with one or more standard 52-card decks, with each denomination assigned a point value. The cards 2 through 10 are worth their face value. Kings, queens, and jacks are each worth 10, and aces may be used as either 1 or 11. The object for the player is to draw cards totaling closer to 21, without going over, than the dealer's cards.</p>
 
-<p>The best total of all is a two-card 21, or a blackjack. Blackjack pays 3-2--that is, a two-card 21 on a $5 bet will win $7.50 instead of the usual $5 even-money payoff on other winning hands. However, if the dealer also has a two-card 21, the hand pushes, or ties, and you just get your original bet back. But if the dealer goes on to draw 21 in three or more cards, your blackjack is still a winner with its 3-2 payoff.</p>
+<p>The best total of all is a two-card 21, or a blackjack. However, if the dealer also has a two-card 21, the hand pushes, or ties, and you just get your original bet back. But if the dealer goes on to draw 21 in three or more cards, your blackjack is still a winner with its 3-2 payoff.</p>
 
 <h1>Game Instructions:</h1>
 <p>The premise of this game is to beat the dealer's value of cards in their hand with your own. Each card in the deck has a certain value associated to them.</p>
