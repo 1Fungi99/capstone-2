@@ -5,13 +5,21 @@ import java.util.*;
 public class Dealer {
 
     public static void main(String[] args) {
-        Hand playerHand = new Hand();
-        DealerHand dealerHand = new DealerHand();
-
-        newGame(playerHand, dealerHand);
+        boolean again = true;
+        do {
+            Hand playerHand = new Hand();
+            DealerHand dealerHand = new DealerHand();
+            boolean game = newGame(playerHand, dealerHand);
+            if (game) {
+                again = true;
+            } else {
+                again = false;
+            }
+        } while (again);
+        System.out.println("Thank you for playing!");
     }
 
-    public static void newGame(Hand playerHand, DealerHand dealerHand) {
+    public static boolean newGame(Hand playerHand, DealerHand dealerHand) {
         Scanner s = new Scanner(System.in);
 
         System.out.println("\nNew Game Started \n");
@@ -51,10 +59,14 @@ public class Dealer {
 
         int playerTotal = hitOptions(s, playerHand, deck);
         int dealerTotal = dealerHit(dealerHand, deck);
+
         System.out.println("Results: \n");
         System.out.println("Player Total: " + playerTotal);
         System.out.println("Dealer Total: " + dealerTotal);
+
         finalResults(playerTotal, dealerTotal);
+
+        return playAgain(s);
     }
 
     // console syntax input
@@ -119,9 +131,26 @@ public class Dealer {
         }
     }
 
+    public static boolean playAgain(Scanner s) {
+        System.out.println("\nPlay Again?");
+        System.out.println("( 1 ) Yes");
+        System.out.println("( 2 ) No");
+        System.out.print("Selection: ");
+        int response = s.nextInt();
+        switch (response) {
+            case 1:
+                return true;
+            case 2:
+                return false;
+            default:
+                System.out.println("Invalid argument... Exiting game... Thank you for playing.");
+                return false;
+        }
+    }
+
     // bust function
     public static void bust() {
-        System.out.println("Bust...GG");
-        System.out.println("Proceed with dealer");
+        System.out.println("\nBust...GG");
+        System.out.println("Proceed with dealer\n");
     }
 }

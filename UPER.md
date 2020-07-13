@@ -14,12 +14,10 @@ Brainstorming ideas for the project.
  - Blackjack
  - D&D module
 
-<h2>
-Blackjack
-</h2>
-<h3>
-Need:
-</h3>
+<h2>Blackjack</h2>
+
+<h3>Need:</h3>
+
 <ul>
 <li>Deck class</li>
 <li>Hand class</li>
@@ -27,10 +25,11 @@ Need:
 <li>Dealer/game class</li>
 <li>Dealer hand? class</li>
 </ul>
-<h2>
-    3. Executing the Plan
-</h2>
+
+<h2>3. Executing the Plan</h2>
+
 <h3>Deck Class</h3>
+
 <p>
 Deck class need to be able to
 <ul>
